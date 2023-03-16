@@ -17,7 +17,8 @@ img {
 }
 
 body {
-    background: url("images/bg.jpg") #bebebe no-repeat center center fixed;
+    background: linear-gradient(0deg, rgba(58,58,58,1) 0%, rgba(255,255,255,1) 37%, rgba(255,255,255,1) 100%) no-repeat center center fixed;
+    background-image: url("images/bg.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -35,4 +36,5 @@ footer {
 	left: 0;
 	bottom: 0;
 	width: 100%;
+    color: rgba(211, 194, 171, 0.75);
 }
